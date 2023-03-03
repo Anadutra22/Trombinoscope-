@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Trombinoscope</title>
+	<style>
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			gap: 30px;
+			margin: 30px;
+		}
+		.card {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 200px;
+			background-color: #f0f0f0;
+			padding: 20px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		}
+		.card img {
+			width: 100%;
+			border-radius: 50%;
+			object-fit: cover;
+			object-position: center;
+			margin-bottom: 10px;
+		}
+		.card h2 {
+			font-size: 18px;
+			margin-bottom: 5px;
+		}
+		.card h3 {
+			font-size: 14px;
+			font-weight: normal;
+			margin-bottom: 5px;
+		}
+		.card p {
+			font-size: 12px;
+			margin-bottom: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<img src="person1.jpg" alt="Person 1">
+			<h2>John Doe</h2>
+			<h3>CEO</h3>
+			<p>Acme Corporation</p>
+			<p>123 Main St, Anytown USA</p>
+		</div>
+		<!-- Add more cards for each person -->
+		<div class="card">
+			<img src="person2.jpg" alt="Person 2">
+			<h2>Jane Smith</h2>
+			<h3>VP of Marketing</h3>
+			<p>XYZ Inc.</p>
+			<p>456 Oak Ave, Anytown USA</p>
+		</div>
+		<!-- Add more cards for each person -->
+	</div>
+</body>
+</html>
